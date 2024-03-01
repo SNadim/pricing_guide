@@ -633,3 +633,174 @@ body {
 }
 
 /* we are hubxper css end */
+
+/* Footer css start */
+
+footer {
+  width: 100%;
+  background-color: #022950;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-title h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: -10px 0;
+}
+
+.logo-and-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  flex: 50%;
+}
+.footer-logo-img {
+  flex: 50%;
+}
+
+.logo-and-title img {
+  max-width: 278px;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: filter 0.3s ease-in-out;
+}
+
+.footer-section p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footer-divider {
+  width: 80%;
+  margin: 15px auto;
+  height: 1px;
+  background-color: white;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+
+.logo-and-title:hover img {
+  filter: invert(53%) sepia(66%) saturate(892%) hue-rotate(329deg)
+    brightness(100%) contrast(94%);
+}
+
+@media screen and (max-width: 1748px) {
+  .footer-title h2 {
+    font-size: 2.8rem;
+  }
+  .logo-and-title img {
+    max-width: 250px;
+  }
+  .footer-section p {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1574px) {
+  .footer-title h2 {
+    font-size: 2.7rem;
+  }
+  .logo-and-title img {
+    max-width: 250px;
+  }
+  .footer-section p {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .footer-title h2 {
+    font-size: 2.6rem;
+  }
+  .logo-and-title img {
+    max-width: 230px;
+  }
+  .footer-section p {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .footer-section {
+    width: 85%;
+  }
+  .footer-title h2 {
+    font-size: 2.4rem;
+  }
+  .logo-and-title img {
+    max-width: 200px;
+  }
+  .footer-section p {
+    font-size: 0.5rem;
+    font-weight: 600;
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 823px) {
+  .footer-section {
+    width: 90%;
+  }
+  .footer-title h2 {
+    font-size: 2.2rem;
+  }
+  .logo-and-title img {
+    max-width: 150px;
+  }
+  .footer-section p {
+    font-size: 0.4rem;
+    font-weight: 600;
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-section {
+    width: 90%;
+  }
+  .footer-title h2 {
+    font-size: 1.8rem;
+  }
+  .logo-and-title img {
+    max-width: 150px;
+  }
+  .footer-section p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .copyright {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+}
+/* Footer css end */
